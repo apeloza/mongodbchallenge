@@ -12,6 +12,8 @@ $scope.sortBy = '';
       .then(function () {
         console.log('POST /movies');
         getMovies();
+        var added = new Audio('../audio/undertalesave.mp3');
+        added.play();
       });
   };
 
@@ -30,6 +32,8 @@ $scope.sortBy = '';
       .then(function (response) {
         console.log('DELETE /movies ', id);
         getMovies();
+        var deleted = new Audio('../audio/delete.mp3');
+        deleted.play();
       });
   };
 

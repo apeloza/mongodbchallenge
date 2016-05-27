@@ -1,0 +1,22 @@
+body {
+  font-family: 'Inconsolata';
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header{
+  background: url(../images/castro.jpg);
+  background-size:cover;
+  background-position: center;
+}
+input, button {
+  color: black;
+}
+ul {
+  list-style: none;
+}
+
+.sortby{
+  text-align: center;
+}
